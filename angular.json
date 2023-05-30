@@ -101,6 +101,14 @@
           "options": {
             "browserTarget": "online_store:build"
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/online_store",
+            "netlifyToken": "aGKXVbzjRTwmNs8I7yU6eZk3-COcfodVaWsb7DrjiFI",
+            "siteId": ""
+          }
         }
       }
     }
